@@ -4,4 +4,6 @@
 
 Turn an array into a stateless linked list.
 
+`npm install @skidding/linked-list` or `yarn add @skidding/linked-list`
+
 [See test file](src/index.test.js) for usage.
