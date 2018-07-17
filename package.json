@@ -1,0 +1,23 @@
+{
+  "name": "@skidding/linked-list",
+  "version": "1.0.0",
+  "description": "Turn an array into a stateless linked list",
+  "repository": "https://github.com/skidding/linked-list",
+  "license": "MIT",
+  "scripts": {
+    "test:watch": "jest --watch",
+    "test": "flow && jest --coverage",
+    "build": "babel src --out-dir dist --ignore '**/*.test.js'"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.54",
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "@babel/preset-flow": "^7.0.0-beta.54",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.0",
+    "flow-bin": "^0.76.0",
+    "flow-typed": "^2.5.1",
+    "jest": "^23.4.1"
+  }
+}
