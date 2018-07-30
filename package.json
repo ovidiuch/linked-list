@@ -5,9 +5,9 @@
   "repository": "https://github.com/skidding/linked-list",
   "license": "MIT",
   "main": "dist/index.js",
-  "files": {
+  "files": [
     "dist"
-  },
+  ],
   "scripts": {
     "test:watch": "jest --watch",
     "test": "flow && jest --coverage",
