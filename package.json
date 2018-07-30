@@ -1,10 +1,13 @@
 {
   "name": "@skidding/linked-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Turn an array into a stateless linked list",
   "repository": "https://github.com/skidding/linked-list",
   "license": "MIT",
   "main": "dist/index.js",
+  "files": {
+    "dist"
+  },
   "scripts": {
     "test:watch": "jest --watch",
     "test": "flow && jest --coverage",
