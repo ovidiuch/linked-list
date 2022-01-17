@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
+      - uses: codecov/codecov-action@v2.1.0
       - run: yarn --frozen-lockfile
       - run: yarn check-types
       - run: yarn test
