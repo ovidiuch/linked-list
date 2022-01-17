@@ -1,8 +1,6 @@
-// @flow
-
-type LinkedItem<Item> = {
-  value: Item,
-  next: () => LinkedItem<Item>
+export type LinkedItem<Item> = {
+  value: Item;
+  next: () => LinkedItem<Item>;
 };
 
 export default function createLinkedList<Item>(
@@ -13,7 +11,7 @@ export default function createLinkedList<Item>(
       value: items[toIndex],
       next: function getNextItem(nextIndex: number): LinkedItem<Item> {
         return advanceList(nextIndex);
-      }.bind(null, toIndex + 1)
+      }.bind(null, toIndex + 1),
     };
   }
 
